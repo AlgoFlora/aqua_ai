@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  USB Device Filter for Arduino UNO and compatible devices.
+  VID list:
+    0x2341 = Arduino LLC (genuine)
+    0x1a86 = CH340 / CH341 (most cheap Chinese Arduino clones)
+    0x0403 = FTDI
+    0x10C4 = CP2102 (Silicon Labs)
+    0x239A = Adafruit
+    0x1B4F = SparkFun
+-->
+<resources>
+    <usb-device vendor-id="9025"  />  <!-- 0x2341 Arduino LLC -->
+    <usb-device vendor-id="6790"  />  <!-- 0x1a86 CH340/CH341 -->
+    <usb-device vendor-id="1027"  />  <!-- 0x0403 FTDI -->
+    <usb-device vendor-id="4292"  />  <!-- 0x10C4 CP2102 -->
+    <usb-device vendor-id="9114"  />  <!-- 0x239A Adafruit -->
+    <usb-device vendor-id="6991"  />  <!-- 0x1B4F SparkFun -->
+    <usb-device vendor-id="5840"  />  <!-- 0x16D0 MCS -->
+</resources>
